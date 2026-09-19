@@ -1,0 +1,161 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <span>✓</span> TaskFlow
+            </div>
+
+            <nav>
+                <a href="#" class="active">Dashboard</a>
+                <a href="#">All Tasks</a>
+                <a href="#">Pending</a>
+                <a href="#">Completed</a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+            </div>
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Top Bar -->
+            <header class="topbar">
+                <div>
+                    <h1>My Tasks</h1>
+                    <p>Keep track of your work and stay organized.</p>
+                </div>
+
+                <div class="user">
+                    <div class="avatar">J</div>
+                    <span>Jaindee</span>
+                </div>
+            </header>
+
+
+            <!-- Task Summary -->
+            <section class="summary">
+
+                <div class="summary-card">
+                    <div>
+                        <p>Total Tasks</p>
+                        <h2>8</h2>
+                    </div>
+                    <span class="icon">📋</span>
+                </div>
+
+                <div class="summary-card">
+                    <div>
+                        <p>Pending</p>
+                        <h2>5</h2>
+                    </div>
+                    <span class="icon">⏳</span>
+                </div>
+
+                <div class="summary-card">
+                    <div>
+                        <p>Completed</p>
+                        <h2>3</h2>
+                    </div>
+                    <span class="icon">✓</span>
+                </div>
+
+            </section>
+
+
+            <!-- Tasks Section -->
+            <section class="tasks-section">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Today's Tasks</h2>
+                        <p>Manage your tasks below.</p>
+                    </div>
+
+                    <button class="add-btn">+ Add Task</button>
+                </div>
+
+
+                <!-- Task -->
+                <div class="task-list">
+
+                    <div class="task-card">
+                        <input type="checkbox">
+
+                        <div class="task-info">
+                            <h3>Complete assignment</h3>
+                            <p>Finish the task management project.</p>
+                            <span class="priority high">High Priority</span>
+                        </div>
+
+                        <div class="task-date">
+                            <small>Due Date</small>
+                            <strong>20 Sep 2026</strong>
+                        </div>
+
+                        <button class="delete-btn">🗑</button>
+                    </div>
+
+
+                    <div class="task-card">
+                        <input type="checkbox">
+
+                        <div class="task-info">
+                            <h3>Study Java</h3>
+                            <p>Review OOP concepts before the exam.</p>
+                            <span class="priority medium">Medium Priority</span>
+                        </div>
+
+                        <div class="task-date">
+                            <small>Due Date</small>
+                            <strong>21 Sep 2026</strong>
+                        </div>
+
+                        <button class="delete-btn">🗑</button>
+                    </div>
+
+
+                    <div class="task-card completed">
+                        <input type="checkbox" checked>
+
+                        <div class="task-info">
+                            <h3>Team meeting</h3>
+                            <p>Discuss the project with team members.</p>
+                            <span class="priority low">Low Priority</span>
+                        </div>
+
+                        <div class="task-date">
+                            <small>Completed</small>
+                            <strong>19 Sep 2026</strong>
+                        </div>
+
+                        <button class="delete-btn">🗑</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
+```
